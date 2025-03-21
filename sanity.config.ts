@@ -5,7 +5,7 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'Content',
+  title: 'BOS CMS',
 
   projectId: 'bkbzy8f2',
   dataset: 'production',
