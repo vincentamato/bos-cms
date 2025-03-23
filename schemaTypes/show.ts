@@ -12,17 +12,11 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'shortDescription',
-      title: 'Short Description',
+      name: 'description',
+      title: 'Description',
       type: 'text',
-      rows: 3,
+      rows: 5,
       validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'longDescription',
-      title: 'Long Description',
-      type: 'text',
-      rows: 6,
     }),
     defineField({
       name: 'heroImage',
@@ -70,7 +64,7 @@ export default defineType({
   preview: {
     select: {
       title: 'title',
-      subtitle: 'shortDescription',
+      subtitle: 'description',
       media: 'cardImage',
     },
   },

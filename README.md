@@ -14,8 +14,7 @@ The CMS is organized into three main content types:
 
 Shows are the primary content unit and contain:
 - **Title**: The name of the show
-- **Short Description**: Brief summary shown in cards and listings
-- **Long Description**: Detailed description for show detail pages
+- **Description**: Summary of the show's content and premise
 - **Hero Image**: Large banner image for the show page (16:9 aspect ratio recommended)
 - **Card Image**: Thumbnail image for listings (2:3 aspect ratio recommended)
 - **Credits**: Rich text field for cast, crew, and production information
@@ -53,7 +52,7 @@ Extras will appear in the CMS with the format: "Show Title: Extra Title"
 
 1. Navigate to "Shows" in the studio sidebar
 2. Click "Create new Show"
-3. Fill in all required fields (Title, Short Description, Hero Image, Card Image)
+3. Fill in all required fields (Title, Description, Hero Image, Card Image)
 4. Format the Credits using the rich text editor
 5. Toggle "Featured Show" if you want it to appear in the homepage carousel
 6. Click "Publish" when complete
